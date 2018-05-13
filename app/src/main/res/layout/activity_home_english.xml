@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context="com.hackerlabs.sky.gamershub.Home">
+    tools:context="com.hackerlabs.sky.gamershub.EnglishHome">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#FFFFFF"
 
-                    android:text="@string/discord_desc_fr" />
+                    android:text="@string/discord_desc" />
 
             </TableRow>
 
@@ -71,7 +71,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/twitter_desc_fr"
+                    android:text="@string/twitter_desc"
                     android:textColor="#FFFFFF"/>
             </TableRow>
 
@@ -96,7 +96,7 @@
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/social_media_desc_fr"
+                    android:text="@string/social_media_desc"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"/>
             </TableRow>
@@ -110,7 +110,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/colorPrimaryDark"
-                    android:text="@string/social_media_fr"
+                    android:text="@string/social_media"
                     android:onClick="goToSocialLinks"/>
 
             </TableRow>
@@ -123,7 +123,7 @@
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/website_desc_fr"
+                    android:text="@string/website_desc"
                     android:textColor="#FFFFFF"/>
             </TableRow>
 
@@ -148,9 +148,9 @@
                     android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="English"
+                    android:text="French"
                     android:backgroundTint="@color/colorPrimaryDark"
-                    android:onClick="goToEnglish"/>
+                    android:onClick="goToFrench"/>
             </TableRow>
 
         </LinearLayout>

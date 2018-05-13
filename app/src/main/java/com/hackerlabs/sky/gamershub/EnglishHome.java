@@ -12,19 +12,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class Home extends AppCompatActivity {
+public class EnglishHome extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_home_english);
     }
     public void goToSocialLinks (View v) {
         boolean connected = false;
         ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
         if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
                 connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
-            startActivity(new Intent(Home.this, Social.class));
+            startActivity(new Intent(EnglishHome.this, Social.class));
 
             connected = true;
         }
@@ -42,7 +42,7 @@ public class Home extends AppCompatActivity {
         ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
         if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
                 connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
-            startActivity(new Intent(Home.this, Website.class));
+            startActivity(new Intent(EnglishHome.this, Website.class));
 
             connected = true;
         }
@@ -53,8 +53,8 @@ public class Home extends AppCompatActivity {
 
         connected = false;
     }
-    public void goToEnglish (View v) {
-        startActivity(new Intent(Home.this, EnglishHome.class));
+    public void goToFrench (View v) {
+        startActivity(new Intent(EnglishHome.this, Home.class));
     }
 
     public void goToDiscord (View view) {
