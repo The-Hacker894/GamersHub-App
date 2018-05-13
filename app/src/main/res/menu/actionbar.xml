@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gamershub="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_open_in"
+        android:icon="@drawable/ic_open_in_browser_black_24dp"
+        android:title="@string/open_in"
+        app:showAsAction="ifRoom"
+        gamershub:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        android:title="@string/copy"
+        app:showAsAction="ifRoom"
+        gamershub:showAsAction="ifRoom"/>
+
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

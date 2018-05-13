@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GamersHub</string>
+    <string name="discord_desc">To join the Gamers Hub, you must join our server Discird, that\'s where our members are! Joining the Gamers Hub is becoming a member, on our server, most of the community is found to discuss, share, have fun. All the vents and giveaways take place there!</string>
+    <string name="discord">GamersHub Discord</string>
+    <string name="guilded_desc">We use Guilded to manage our events, our tournaments, our Giveaways, so join us on Guilded to participate in the events!</string>
+    <string name="guilded">GamersHub Guilded</string>
+    <string name="social_media_desc">Check us out on Social Media</string>
+    <string name="social_media">Social Links</string>
+    <string name="open_in">Open In</string>
+    <string name="action_settings">Settings</string>
+    <string name="copy">Copy</string>
+    <string name="website_desc">Find mates, chat, share! On Discord, Guilded and many other platforms! Join us!</string>
+    <string name="website">GamersHub Website</string>
+</resources>
