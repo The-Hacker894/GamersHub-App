@@ -60,8 +60,8 @@ public class Home extends AppCompatActivity {
     public void goToDiscord (View view) {
         goToUrl ( "https://discord.io/frgamershub");
     }
-    public void goToGuilded (View view) {
-        goToUrl( "https://twitter.com/GamersHub6");
+    public void goToTwitter (View view) {
+        goToUrl( "https://twitter.com/GamersHub1");
     }
 
 

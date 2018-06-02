@@ -44,7 +44,7 @@
                     android:layout_height="97dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
-                    android:onClick="goToSocialLinks"
+                    android:onClick="goToTwitter"
                     app:srcCompat="@drawable/twitter" />
 
             </TableRow>
@@ -58,6 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/social_media_desc_fr"
+                    android:textSize="16sp"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"/>
             </TableRow>
@@ -85,6 +86,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/website_desc_fr"
+                    android:textSize="16sp"
                     android:textColor="#FFFFFF"/>
             </TableRow>
 

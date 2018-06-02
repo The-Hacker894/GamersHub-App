@@ -63,6 +63,9 @@ public class EnglishHome extends AppCompatActivity {
     public void goToGuilded (View view) {
         goToUrl( "https://twitter.com/GamersHub6");
     }
+    public void goToTwitter (View view) {
+        goToUrl( "https://twitter.com/GamersHub1");
+    }
 
 
     private void goToUrl (String url) {
