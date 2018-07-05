@@ -1,21 +1,18 @@
 <resources>
     <string name="app_name">GamersHub</string>
-    <string name="discord_desc">To join the Gamers Hub, you must join our server Discird, that\'s where our members are! Joining the Gamers Hub is becoming a member, on our server, most of the community is found to discuss, share, have fun. All the vents and giveaways take place there!</string>
-    <string name="discord">GamersHub Discord</string>
-    <string name="discord_desc_fr">Pour rejoindre le Gamers Hub, vous devez rejoindre notre serveur Discird, c\'est là que se trouvent nos membres! Rejoindre le Gamers Hub devient un membre, sur notre serveur, la plupart des membres de la communauté discutent, partagent, s\'amusent. Tous les évents et les cadeaux ont lieu là!</string>
-    <string name="guilded_desc">We use Guilded to manage our events, our tournaments, our Giveaways, so join us on Guilded to participate in the events!</string>
-    <string name="guilded">GamersHub Guilded</string>
-    <string name="twitter_desc">A Gaming Community! Find mates, share, chat, have fun with friends!</string>
-    <string name="twitter_desc_fr">Une communauté de jeu! Trouver des partenaires, partager, discuter, s\'amuser avec des amis!</string>
-    <string name="twitter">GamersHub Twitter</string>
-    <string name="social_media_desc">Check us out on Social Media</string>
-    <string name="social_media_desc_fr">Consultez-nous sur les médias sociaux</string>
-    <string name="social_media">Social Links</string>
-    <string name="social_media_fr">Liens sociaux</string>
     <string name="open_in">Open In</string>
     <string name="action_settings">Settings</string>
     <string name="copy">Copy</string>
-    <string name="website_desc">Find mates, chat, share! On Discord, Guilded and many other platforms! Join us!</string>
-    <string name="website_desc_fr">Trouver des amis, discuter, partager! Sur Discord, Guilded et beaucoup d\'autres plateformes! Rejoignez-nous!</string>
+    <string name="website_desc">The GamersHub is a community to find playmates, chat, share, schedule events, and many other things. We also organize events, giveaways, and competitions.</string>
+    <string name="website_desc_fr">Le GamersHub est une communauté pour trouver des compagnons de jeu, discuter, partager, planifier des événements, et bien d'autres choses. Nous organisons également des événements, des cadeaux et des concours.</string>
     <string name="website">GamersHub Website</string>
+    <string name="website_fr">Site Internet</string>
+    <string name="discord_server">GamersHub has two Discord servers</string>
+    <string name="discord_server_question">Which server would you like to join?</string>
+    <string name="app_name_re">GamersHub Renaissance</string>
+    <string name="discord_server_fr">GamersHub a deux serveurs Discord</string>
+    <string name="discord_server_question_fr">Quel serveur aimeriez-vous rejoindre?</string>
+    <string name="internet_error">You need an internet connection for this!</string>
+    <string name="internet_error_fr">Vous avez besoin d'une connexion Internet pour cela!</string>
 </resources>
+
