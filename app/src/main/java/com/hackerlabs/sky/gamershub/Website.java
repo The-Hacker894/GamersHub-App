@@ -155,7 +155,7 @@ public class Website extends AppCompatActivity {
     public boolean onKeyLongPress(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK)
         {
-            startActivity(new Intent(Website.this, Home.class));
+            startActivity(new Intent(Website.this, MainActivity.class));
 
             return true;
         }

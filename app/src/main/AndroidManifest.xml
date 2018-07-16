@@ -7,34 +7,33 @@
 
     <application
         android:allowBackup="true"
-         android:label="@string/app_name"
-        android:icon="@drawable/newgamershub"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Website"
-            android:parentActivityName=".Home"
+        <activity
+            android:name=".Website"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <intent-filter>
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-
-        </activity>
-        <activity android:name=".EnglishHome"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Credits"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

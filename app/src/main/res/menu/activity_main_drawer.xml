@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Home">
+            <menu>
+                <item
+                    android:id="@+id/french_home"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="French" />
+                <item
+                    android:id="@+id/english_home"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="English" />
+            </menu>
+        </item>
+
+
+    </group>
+
+    <item android:title="Links">
+        <menu>
+            <item
+                android:id="@+id/website_view"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="Website" />
+            <item
+                android:id="@+id/discord"
+                android:icon="@drawable/ic_vectordiscord"
+                android:title="Discord" />
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/ic_twitter"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/youtube"
+                android:icon="@drawable/ic_youtube"
+                android:title="YouTube" />
+        </menu>
+    </item>
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/credits"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="Credits" />
+        </menu>
+    </item>
+
+</menu>
