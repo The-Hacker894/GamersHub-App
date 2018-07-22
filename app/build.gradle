@@ -6,13 +6,19 @@ android {
         applicationId "com.hackerlabs.sky.gamershub"
         minSdkVersion 21
         targetSdkVersion 26
-        versionCode 8
-        versionName "2.0"
+        versionCode 11
+        versionName "2.0.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

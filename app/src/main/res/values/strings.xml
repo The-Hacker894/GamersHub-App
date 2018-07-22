@@ -5,12 +5,24 @@
     <string name="copy">Copy</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="desc">"The GamersHub is a community to find people to play with, chat, share, schedule events, and many other things. We also organize events, giveaways, and competitions."</string>
-    <string name="desc_fr">"Le GamersHub est une communauté pour trouver des gens à jouer, discuter, partager, planifier des événements, et bien d'autres choses. Nous organisons également des événements, des cadeaux et des concours."</string>
+
+    <!--Descriptions-->
+    <string name="descDev">GamersHub is an SEO platform where you can publish your game to make it grow, and attract beta testers to improve it, all for FREE! Simply send us your game through the form and we will contact you for details etc…</string>
+    <string name="descDev_fr">Gamers Hub est une plateforme de référencement où vous pouvez publier votre jeu pour le faire grandir, et attirer des bêta-testeurs pour l\'améliorer, le tout gratuitement! Il suffit de nous envoyer votre jeu à travers le formulaire et nous vous contacterons pour plus de détails etc…</string>
+    <string name="descGamer">With GamersHub you can discover many games of different styles and genres. You can play and beta test games as well! We even do giveaways for Gift Cards and more. Just join our Discord Server!</string>
+    <string name="descGamer_fr">Avec GamersHub, vous pouvez découvrir de nombreux jeux de styles et de genres différents. Vous pouvez aussi jouer et tester des jeux bêta! Nous faisons même des cadeaux pour les cartes-cadeaux et plus encore. Rejoignez notre serveur Discord!</string>
+    <!--Description Titles-->
+    <string name="devTitle">For Developers</string>
+    <string name="devTitle_fr">Pour les développeurs</string>
+    <string name="gamerTitle">For Gamers</string>
+    <string name="gamerTitle_fr">Pour les joueurs</string>
+
     <string name="credits">The GamersHub App for Android is developed and published by <a href="https://skylarmccauley.hacker-hub.com/">Skylar \'\'TheHacker\'\' McCauley</a>. Some icons used are created by <a href="https://www.fontawesome.com/">Font Awesome</a> and labelled for use under the <a href="https://www.fontawesome.com/license/">Font Awesome License</a>.</string>
     <string name="credits_fr">L\'App GamersHub pour Android est développé et publié par <a href="https://skylarmccauley.hacker-hub.com/">Skylar \'\'TheHacker\'\' McCauley</a>. Certaines icônes utilisées sont créées par <a href="https://www.fontawesome.com/">Font Awesome</a> et étiquetées pour être utilisées sous <a href="https://www.fontawesome.com/licence/">Font Awesome License</a>.</string>
 
     <string name="title_activity_main">MainActivity</string>
+    <string name="pref_lang">Language</string>
+    <string name="pref_lang_sum">Off - Français; On - English</string>
 
 
 </resources>

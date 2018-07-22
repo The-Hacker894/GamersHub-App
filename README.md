@@ -1,2 +1,2 @@
 # GamersHub-App
-GamersHub Android App (Requested by Sunshi_#5942)
+GamersHub Android App (Requested by @Yann#8138

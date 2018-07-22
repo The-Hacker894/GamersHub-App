@@ -31,7 +31,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
             android:text="English"
-            android:textColor="#FFF"
+            android:textColor="#000"
             android:textSize="35sp">
 
         </TextView>
@@ -48,7 +48,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:text="Loading..."
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="18sp" />
 
 </TableRow>
@@ -66,7 +66,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
             android:text="French"
-            android:textColor="#FFF"
+            android:textColor="#000"
             android:textSize="35sp">
 
         </TextView>
@@ -82,7 +82,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
             android:text="Loading..."
-            android:textColor="#FFF"
+            android:textColor="#000"
             android:textSize="18sp" />
 
     </TableRow>

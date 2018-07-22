@@ -2,52 +2,53 @@ package com.hackerlabs.sky.gamershub;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.AssetManager;
-import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.ActionBar;
-import android.text.Html;
-import android.view.View;
+import android.os.Environment;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Locale;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    String discordInv = "https://discord.gg/rJMDvKH";
-    String twitterLnk = "https://twitter.com/GamersHub1/";
-    String youtubeLnk = "https://www.youtube.com/channel/UCzLUBprrfh_CISVY1pb-4GA";
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        TextView descText = (TextView) findViewById(R.id.descText);
-        TextView titleText = (TextView) findViewById(R.id.titleText);
+        TextView devTitle = (TextView)findViewById(R.id.devTitle);
+        TextView devDesc = (TextView)findViewById(R.id.devDesc);
+        TextView gamerTitle = (TextView)findViewById(R.id.gamerTitle);
+        TextView gamerDesc = (TextView)findViewById(R.id.gamerDesc);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
-        descText.setText(R.string.desc_fr);
 
 
+                devTitle.setText(R.string.devTitle_fr);
+                devDesc.setText(R.string.descDev_fr);
+                gamerTitle.setText(R.string.gamerTitle_fr);
+                gamerDesc.setText(R.string.descGamer_fr);
 
         // Get a support ActionBar corresponding to this toolbar
         ActionBar ab = getSupportActionBar();
@@ -71,7 +72,42 @@ public class MainActivity extends AppCompatActivity
 
 
 
+
+
     }
+
+    /*public void editSettings(String file, String text) {
+        try {
+            FileOutputStream fos = openFileOutput(file, Context.MODE_PRIVATE);
+            fos.write(text.getBytes());
+            fos.close();
+            Toast.makeText(MainActivity.this, "Settings saved!", Toast.LENGTH_SHORT).show();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(MainActivity.this, "Error saving settings!", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public String readSettings(String file) {
+
+        try {
+            FileInputStream fis = openFileInput(file);
+            int size = fis.available();
+            byte[] buffer = new byte[size];
+
+            fis.read(buffer);
+            fis.close();
+
+            Toast.makeText(MainActivity.this, "Read Successful", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(MainActivity.this, "Error reading settings!", Toast.LENGTH_SHORT).show();
+        }
+
+        Toast.makeText(MainActivity.this, "Read Successful", Toast.LENGTH_SHORT).show();
+        return "yes";
+    } */
 
     @Override
     public void onBackPressed() {
@@ -108,6 +144,11 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+
+        String discordInv = "https://discord.gg/rJMDvKH";
+        String twitterLnk = "https://twitter.com/GamersHub1/";
+        String youtubeLnk = "https://www.youtube.com/channel/UCzLUBprrfh_CISVY1pb-4GA";
+
         // Handle navigation view item clicks here.
         ActionBar ab = getSupportActionBar();
 
@@ -115,17 +156,30 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.french_home) {
             // Load French Home
-            TextView descText = (TextView)findViewById(R.id.descText);
+            TextView devTitle = (TextView)findViewById(R.id.devTitle);
+            TextView devDesc = (TextView)findViewById(R.id.devDesc);
+            TextView gamerTitle = (TextView)findViewById(R.id.gamerTitle);
+            TextView gamerDesc = (TextView)findViewById(R.id.gamerDesc);
 
-            descText.setText(R.string.desc_fr);
+            devTitle.setText(R.string.devTitle_fr);
+            devDesc.setText(R.string.descDev_fr);
+            gamerTitle.setText(R.string.gamerTitle_fr);
+            gamerDesc.setText(R.string.descGamer_fr);
+
+     //       editSettings(langSettingsFileName, "fr");
         } else if (id == R.id.english_home) {
             //Load English Home
+            TextView devTitle = (TextView)findViewById(R.id.devTitle);
+            TextView devDesc = (TextView)findViewById(R.id.devDesc);
+            TextView gamerTitle = (TextView)findViewById(R.id.gamerTitle);
+            TextView gamerDesc = (TextView)findViewById(R.id.gamerDesc);
 
-            TextView descText = (TextView)findViewById(R.id.descText);
+            devTitle.setText(R.string.devTitle);
+            devDesc.setText(R.string.descDev);
+            gamerTitle.setText(R.string.gamerTitle);
+            gamerDesc.setText(R.string.descGamer);
 
-            descText.setText(R.string.desc);
-
-
+     //       editSettings(langSettingsFileName, "en");
         } else if (id == R.id.website_view) {
             //Load Website View
 
